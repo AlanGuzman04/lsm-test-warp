@@ -1,13 +1,13 @@
-# Modelo LSTM para Reconocimiento de Lengua de Señas Peruana (LSP)
-# LSTM Model for Peruvian Sign Language (LSP) Recognition
+# Modelo LSTM para Reconocimiento de Lenguaje de Señas Mexicano (LSM)
+# LSTM Model for Mexican Sign Language (LSM) Recognition
 
 ## Descripción / Description
 
 **Español:**
-Este es un modelo de una red neuronal LSTM que traduce Lengua de Señas Peruana (LSP) a texto y voz. Utiliza MediaPipe para obtener los puntos clave de las señas y TensorFlow/Keras para el entrenamiento de la red neuronal. El proyecto incluye una interfaz gráfica de usuario (GUI) para facilitar su uso.
+Este es un modelo de una red neuronal LSTM que traduce Lenguaje de Señas Mexicano (LSM) a texto y voz. Utiliza MediaPipe para obtener los puntos clave de las señas y TensorFlow/Keras para el entrenamiento de la red neuronal. El proyecto incluye una interfaz gráfica de usuario (GUI) para facilitar su uso.
 
 **English:**
-This is an LSTM neural network model that translates Peruvian Sign Language (LSP) to text and speech. It uses MediaPipe to extract keypoints from sign gestures and TensorFlow/Keras for neural network training. The project includes a graphical user interface (GUI) for ease of use.
+This is an LSTM neural network model that translates Mexican Sign Language (LSM) to text and speech. It uses MediaPipe to extract keypoints from sign gestures and TensorFlow/Keras for neural network training. The project includes a graphical user interface (GUI) for ease of use.
 
 ## Requisitos del Sistema / System Requirements
 
@@ -22,8 +22,8 @@ This is an LSTM neural network model that translates Peruvian Sign Language (LSP
 
 1. **Clonar el repositorio / Clone the repository:**
    ```powershell
-   git clone https://github.com/tu-usuario/modelo_lstm_lsp.git
-   cd modelo_lstm_lsp
+   git clone https://github.com/tu-usuario/modelo_lstm_lsm.git
+   cd modelo_lstm_lsm
    ```
 
 2. **Crear un entorno virtual / Create a virtual environment:**
@@ -52,8 +52,8 @@ This is an LSTM neural network model that translates Peruvian Sign Language (LSP
 
 1. **Clonar el repositorio / Clone the repository:**
    ```bash
-   git clone https://github.com/tu-usuario/modelo_lstm_lsp.git
-   cd modelo_lstm_lsp
+   git clone https://github.com/tu-usuario/modelo_lstm_lsm.git
+   cd modelo_lstm_lsm
    ```
 
 2. **Crear un entorno virtual / Create a virtual environment:**
@@ -137,7 +137,7 @@ python main.py
 ## Estructura del Proyecto / Project Structure
 
 ```
-modelo_lstm_lsp/
+modelo_lstm_lsm/
 ├── data/                    # Datos de entrenamiento / Training data
 ├── frame_actions/           # Muestras capturadas / Captured samples
 ├── models/                  # Modelos entrenados / Trained models

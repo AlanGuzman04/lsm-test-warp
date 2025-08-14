@@ -197,3 +197,10 @@ videos/
 # Temporary files
 *.tmp
 *.temp
+
+
+# Directorios
+tests/
+main.py
+server1.py
+frontend/

@@ -21,7 +21,7 @@ class VideoRecorder(QMainWindow):
         
         self.capture = cv2.VideoCapture(0)
         
-        self.init_lsp()
+        self.init_lsm()
         
         # self.btn_start.clicked.connect(self.start_recording)
         # self.btn_stop.clicked.connect(self.stop_recording)
@@ -30,7 +30,7 @@ class VideoRecorder(QMainWindow):
         self.timer.timeout.connect(self.update_frame)
         self.timer.start(30)  # Update frame every 30ms
     
-    def init_lsp(self):
+    def init_lsm(self):
         self.holistic_model = Holistic()
         self.kp_seq, self.sentence = [], []
         self.count_frame = 0
